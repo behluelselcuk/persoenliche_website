@@ -96,22 +96,9 @@ body {
     width: 90%;
 }
 
-.about_me {
-    background-color: var(--baby_blue);
-}
-
-.about_me:hover {
-    background-color: var(--blue);
-    color: var(--baby_blue);
-}
-
-.about_me a:hover {
-    color: var(--baby_blue);
-}
-
 #navbar ul li a {
     text-decoration: none;
-    color: var(--blue);
+    color: white;
 }
 
 
@@ -133,7 +120,7 @@ main {
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
-    color: var(--blue);
+    color: var(--white);
     background-color: var(--dark_blue);
 }
 
@@ -166,9 +153,9 @@ main {
 #welcome-section .button:first-of-type {
     grid-column: 1;
     grid-row: 3;
-    background-color: var(--baby_blue);
+    background-color: var(--blue);
     border: 1px solid var(--baby_blue);
-    color: var(--blue);
+    color: var(--white);
 }
 
 #welcome-section .button:last-of-type {
@@ -176,7 +163,7 @@ main {
     grid-row: 3;
     background-color: transparent;
     border: 1px solid var(--baby_blue);
-    color: var(--blue);
+    color: var(--white);
 }
 
 #welcome-section .button:hover {
@@ -353,7 +340,7 @@ main {
 #projects h1 {
     font-size: 3rem;
     text-align: center;
-    color: var(--blue);
+    color: var(--white);
     grid-column: 2 / 4;
     grid-row: 1;
 }
@@ -383,6 +370,10 @@ main {
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem;
+}
+
+.project-paragraph:hover {
+    background-color: rgb(178, 178, 178);
 }
 
 .project:first-of-type {
@@ -493,11 +484,15 @@ main {
 
 footer {
     background-color: var(--dark_blue);
-    color: var(--blue);
+    color: var(--white);
     text-align: center;
     margin-bottom: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+footer a {
+    color: var(--white);
 }
 
 p a {
